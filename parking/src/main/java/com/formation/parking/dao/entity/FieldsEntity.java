@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class FieldsEntity {
 
-    @JsonProperty(value = "idObj")
+    @JsonProperty(value = "idobj")
     private String idObj;
     @JsonProperty(value = "grp_nom")
     private String grpNom;
